@@ -172,7 +172,7 @@ export default function Index({ publication, initialAllPosts, initialPageInfo }:
 										onClick={loadMore}
 										type="outline"
 										icon={<ChevronDownSVG className="h-5 w-5 stroke-current" />}
-										label="Load more posts"
+										label="Cargar más posts"
 									/>
 								</div>
 							)}
