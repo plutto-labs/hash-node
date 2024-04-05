@@ -129,7 +129,7 @@ const FeaturedPosts = (props: {
                           onFocus={() => undefined}
                         >
                           <BookOpenSVG className="mr-2 h-4 w-4 fill-current" />
-                          <span>{post.readTimeInMinutes} min read</span>
+                          <span>{post.readTimeInMinutes} min. de lectura</span>
                         </Link>
                       </p>
                     ) : null}

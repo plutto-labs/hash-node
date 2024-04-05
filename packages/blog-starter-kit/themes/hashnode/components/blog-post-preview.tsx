@@ -109,9 +109,9 @@ function BlogPostPreview(props: {
               {moment(post.publishedAt).format('ll')}
             </Link>
             {features.readTime.isEnabled && post.readTimeInMinutes ? (
-              <Link href={postURL} aria-label={`${post.title} min read`} className="mr-4 flex flex-row items-center">
+              <Link href={postURL} aria-label={`${post.title} min. de lectura`} className="mr-4 flex flex-row items-center">
                 <BookOpenSVG className="mr-1 h-4 w-4 fill-current" />
-                <span>{post.readTimeInMinutes} min read </span>
+                <span>{post.readTimeInMinutes} min. de lectura </span>
               </Link>
             ) : null}
             {post.views && features.viewCount.isEnabled ? (

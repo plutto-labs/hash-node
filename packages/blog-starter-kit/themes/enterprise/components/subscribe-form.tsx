@@ -54,7 +54,7 @@ export const SubscribeForm = () => {
 						onClick={subscribe}
 						className="bg-primary-600 dark:bg-primary-600 absolute right-3 top-3 rounded-full px-3 py-2 text-white disabled:cursor-not-allowed disabled:opacity-80"
 					>
-						Subscribe
+						Suscríbete
 					</button>
 				</div>
 			)}
@@ -62,9 +62,8 @@ export const SubscribeForm = () => {
 				<div className="relative w-full p-2 text-center">
 					<p className="font-bold text-green-600 dark:text-green-500">Almost there!</p>
 					<p className="font-medium text-slate-600 dark:text-neutral-300">
-						Check your inbox for a confirmation email and click{' '}
-						<strong>&quot;Confirm and Subscribe&quot;</strong> to complete your subscription. Thanks
-						for joining us!
+						Revisa en tu entrada el correo de confirmación y hazle click{' '}
+						<strong>&quot;Confirmar y Suscribirme&quot;</strong> para completar tu suscripción. Gracias por unirte!
 					</p>
 				</div>
 			)}

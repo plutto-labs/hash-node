@@ -75,7 +75,7 @@ export const Header = () => {
 			)}
 		</ul>
 	);
-
+								
 	return (
 		<header className="border-b bg-slate-950 py-10 dark:border-neutral-800 dark:bg-neutral-900">
 			<Container className="grid grid-cols-4 gap-5 px-5">
@@ -99,7 +99,7 @@ export const Header = () => {
 				</div>
 				<div className="col-span-2 flex flex-row items-center justify-end gap-5 text-slate-300 lg:col-span-3">
 					<nav className="hidden lg:block">{navList}</nav>
-					<Button href={baseUrl} as="a" type="primary" label="Book a demo" />
+					<Button href={process.env.NEXT_PUBLIC_PLUTTO_URL} as="a" type="primary" label={"Agenda una demo"} />
 				</div>
 			</Container>
 			<div className="mt-5 flex justify-center lg:hidden">
