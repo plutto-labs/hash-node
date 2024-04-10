@@ -39,7 +39,7 @@ function TocSheet({ list }: { list: any[] }) {
   return (
     <>
       <Tooltip.Provider>
-        <PostFloatingBarTooltipWrapper label="Table of contents">
+        <PostFloatingBarTooltipWrapper label="Tabla de contenidos">
           <Tooltip.Trigger asChild>
             <Button
               onClick={openTocModalWithEvent}
@@ -68,7 +68,7 @@ function TocSheet({ list }: { list: any[] }) {
               <>
                 <div className="z-50 flex w-full items-center justify-between p-4 pb-0">
                   <DialogPrimitive.DialogTitle className="py-2 text-sm font-medium uppercase text-slate-500 dark:text-slate-400">
-                    Table of contents
+                    Tabla de contenidos
                   </DialogPrimitive.DialogTitle>
 
                   <DialogPrimitive.Close className="" asChild>

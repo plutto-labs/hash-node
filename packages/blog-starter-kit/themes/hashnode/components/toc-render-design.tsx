@@ -169,7 +169,7 @@ const TocRenderDesign = (props: TocRenderDesignProps) => {
         {modal || (
           <div className="pt-4">
             <h2 className="px-[18px] py-2 text-sm font-medium uppercase text-slate-500 dark:text-slate-400">
-              <span>Table of contents</span>
+              <span>Tabla de contenidos</span>
             </h2>
           </div>
         )}
