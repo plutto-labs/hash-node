@@ -163,7 +163,7 @@ export const PostComments = () => {
 					icon={<HashnodeSVG className="h-5 w-5 stroke-current" />}
 					label="Add a comment"
 					secondaryIcon={<ExternalArrowSVG className="h-4 w-4 stroke-current" />}
-					className="border-primary-600 dark:border-primary-500 text-primary-600 dark:text-primary-500 !font-normal"
+					className="border-primary-600 dark:border-primary-500 text-indigo-600 dark:text-indigo-500 !font-normal"
 				/>
 			</div>
 		</div>
