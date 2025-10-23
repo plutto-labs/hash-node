@@ -4,19 +4,26 @@
 #
 
 app = 'getplutto-blog'
-primary_region = 'scl'
+primary_region = 'sjc'
 
 [build]
+  [build.args]
+    NEXT_PUBLIC_HASHNODE_PUBLICATION_HOST = "blog.getplutto.com"
+
+[env]
+  NEXT_PUBLIC_HASHNODE_PUBLICATION_HOST = "blog.getplutto.com"
+  NEXT_PUBLIC_HASHNODE_GQL_ENDPOINT = "https://gql.hashnode.com"
+    NEXT_PUBLIC_PLUTTO_URL = "https://getplutto.com"
 
 [http_service]
   internal_port = 3000
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
-  min_machines_running = 0
+  min_machines_running = 1
   processes = ['app']
 
 [[vm]]
-  memory = '1gb'
+  memory = '512mb'
   cpu_kind = 'shared'
   cpus = 1
